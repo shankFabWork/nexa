@@ -20,6 +20,7 @@ function App() {
     <>
       <Routes>
         <Route exact path="/" element={<LandingPage />} />
+        <Route exact path="/nexa" element={<LandingPage />} />
         <Route path="/project" element={<ProjectPage />} />
         <Route exact path="/project/:id" element={<ProjectDetailPage />} />
         <Route exact path="/team" element={<TeamPage />} />
