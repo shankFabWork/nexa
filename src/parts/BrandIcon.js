@@ -25,9 +25,11 @@ export default function BrandIcon() {
           alt="NexaQuark Logo"
           className="h-12 w-12 md:h-16 md:w-16 object-contain transition-transform duration-200 group-hover:scale-105"
         />
-        <span className="text-purple-700 group-hover:text-blue-700 text-2xl md:text-3xl font-bold tracking-wide transition-colors duration-200">
-          <i>NexaQuark Consulting</i>
-        </span>
+        
+      <span className="text-purple-700 group-hover:text-blue-700 text-2xl md:text-3xl font-semibold tracking-normal transition-colors duration-200 font-sans">
+        NexaQuark Consulting
+      </span>
+
       </div>
       
       </p>
