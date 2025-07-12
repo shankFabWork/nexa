@@ -19,20 +19,6 @@ import Sasha from '../assets/images/Testimonials/Sasha.jpg';
 import Reiner from '../assets/images/Testimonials/Reiner.jpg';
 import Kruger from '../assets/images/Testimonials/Kruger.jpg';
 
-// TeamMembers
-import CEO from '../assets/images/TeamMembers/CEO.jpg';
-import HRD from '../assets/images/TeamMembers/HRD.jpg';
-import Finance from '../assets/images/TeamMembers/Finance.jpg';
-import ProjectManager from '../assets/images/TeamMembers/Project-manager.jpg';
-import Frontend1 from '../assets/images/TeamMembers/Frontend1.jpg';
-import Frontend2 from '../assets/images/TeamMembers/Frontend2.jpg';
-import Backend1 from '../assets/images/TeamMembers/Backend1.jpg';
-import Backend2 from '../assets/images/TeamMembers/Backend2.jpg';
-import Mobile1 from '../assets/images/TeamMembers/Mobile1.jpg';
-import Mobile2 from '../assets/images/TeamMembers/Mobile2.jpg';
-import UIUX1 from '../assets/images/TeamMembers/UIUX1.jpg';
-import UIUX2 from '../assets/images/TeamMembers/UIUX2.jpg';
-
 // Services Img Imports
 import BigDataProcessing from '../assets/images/Services/big_data_processing.jpg';
 import CloudData from '../assets/images/Services/cloud_data.jpg';
@@ -40,6 +26,16 @@ import DataGovernance from '../assets/images/Services/data_governance_&_quality.
 import DataModeling from '../assets/images/Services/data_modeling_and_architecture.jpg';
 import DataPipeline from '../assets/images/Services/data_pipeline.jpg';
 import DataWarehousing from '../assets/images/Services/data_warehousing.jpg';
+
+// TeamMembers
+import coFounder from '../assets/images/TeamMembers/CO_Founder.jpg';
+import CEO from '../assets/images/TeamMembers/CEO.jpg';
+
+// Partner Img Imports
+import accelerant from '../assets/images/Partner/accelerant.jpg';
+import arbonne from '../assets/images/Partner/arbonne.jpg';
+import augusta from '../assets/images/Partner/augusta.jpg';
+import tide from '../assets/images/Partner/tide.jpg';
 
 export const Services = [
   {
@@ -191,63 +187,32 @@ export const Testimonials = [
 
 export const TeamMembers = [
   {
-    name: 'Rach David',
+    name: 'Shashank Sharma',
+    position: 'CO Founder',
+    imageUrl: coFounder,
+  },
+  {
+    name: 'Kashyap Rupapara',
     position: 'CEO',
     imageUrl: CEO,
   },
+];
+
+export const Partners = [
   {
-    name: 'Pauline Sydney',
-    position: 'HRD',
-    imageUrl: HRD,
+    company_name: 'Accelerant',
+    imageUrl: accelerant,
   },
   {
-    name: 'Granger Watterson',
-    position: 'Finance',
-    imageUrl: Finance,
+    company_name: 'Arbonne',
+    imageUrl: arbonne,
   },
   {
-    name: 'Tom Jimmy',
-    position: 'Project Manager',
-    imageUrl: ProjectManager,
+    company_name: 'Augusta',
+    imageUrl: augusta,
   },
   {
-    name: 'Jim Hendrix',
-    position: 'Front-end Developer',
-    imageUrl: Frontend1,
-  },
-  {
-    name: 'Calvin Max',
-    position: 'Front-end Developer',
-    imageUrl: Frontend2,
-  },
-  {
-    name: 'Hawkins Jim',
-    position: 'Back-end Developer',
-    imageUrl: Backend1,
-  },
-  {
-    name: 'Don Bizaro',
-    position: 'Back-end Developer',
-    imageUrl: Backend2,
-  },
-  {
-    name: 'Bill Markinson',
-    position: 'Mobile Developer',
-    imageUrl: Mobile1,
-  },
-  {
-    name: 'Igor Kavarov',
-    position: 'Mobile Developer',
-    imageUrl: Mobile2,
-  },
-  {
-    name: 'Freddie Curl',
-    position: 'UI/UX Designer',
-    imageUrl: UIUX2,
-  },
-  {
-    name: 'Monica Lovegood',
-    position: 'UI/UX Designer',
-    imageUrl: UIUX1,
+    company_name: 'Tide',
+    imageUrl: tide,
   },
 ];
