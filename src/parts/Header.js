@@ -48,7 +48,7 @@ export default function Header() {
           </li>
           <li>
             <Button
-              className={`${path === '/#partner' ? 'active-link' : ''} font-medium px-3 py-1 hover:underline`}
+              className={`${path === '/#partner' ? 'active-link' : ''} font-medium px-3 py-1 hover:underline scroll-mt-20`}
               type="link"
               href="/#partner"
             >
