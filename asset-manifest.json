@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nexa/static/css/main.5a45974f.css",
-    "main.js": "/nexa/static/js/main.fa45da17.js",
+    "main.css": "/nexa/static/css/main.3a5b5f98.css",
+    "main.js": "/nexa/static/js/main.f9bab9d3.js",
     "static/js/453.c7276868.chunk.js": "/nexa/static/js/453.c7276868.chunk.js",
     "static/media/Recruiting.png": "/nexa/static/media/Recruiting.faeebb5ecbceddc61777.png",
     "static/media/Aura.png": "/nexa/static/media/Aura.e5ad93496c2e85e83e83.png",
@@ -33,12 +33,12 @@
     "static/media/CO_Founder.jpg": "/nexa/static/media/CO_Founder.d8e9580ffa9f94fedc21.jpg",
     "static/media/data_warehousing.jpg": "/nexa/static/media/data_warehousing.24866b7911c2ede0799d.jpg",
     "index.html": "/nexa/index.html",
-    "main.5a45974f.css.map": "/nexa/static/css/main.5a45974f.css.map",
-    "main.fa45da17.js.map": "/nexa/static/js/main.fa45da17.js.map",
+    "main.3a5b5f98.css.map": "/nexa/static/css/main.3a5b5f98.css.map",
+    "main.f9bab9d3.js.map": "/nexa/static/js/main.f9bab9d3.js.map",
     "453.c7276868.chunk.js.map": "/nexa/static/js/453.c7276868.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a45974f.css",
-    "static/js/main.fa45da17.js"
+    "static/css/main.3a5b5f98.css",
+    "static/js/main.f9bab9d3.js"
   ]
 }
