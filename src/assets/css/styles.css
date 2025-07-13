@@ -2,8 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* index.css */
 html {
   scroll-behavior: smooth;
+}
+body {
+  @apply bg-white text-black dark:bg-black dark:text-white transition-colors duration-300;
 }
 
 section {

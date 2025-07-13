@@ -9,7 +9,7 @@ import { fontFamily as _fontFamily } from 'tailwindcss/defaultTheme';
 
 module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
     fontFamily: {
       sans: ['Poppins', ..._fontFamily.sans],

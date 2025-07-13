@@ -12,7 +12,7 @@ import ProjectPage from 'pages/ProjectPage';
 import NotFoundPage from 'pages/NotFoundPage';
 
 import { ProjectDetailPage } from 'pages/ProjectDetailPage';
-import { DiscussProjectPage } from 'pages/DiscussProjectPage';
+import DiscussProjectPage from 'pages/DiscussProjectPage';
 
 import './assets/css/styles.css';
 
@@ -36,15 +36,17 @@ function App() {
 
   return (
     <>
-      <ScrollToTop />
-      <Routes>
-        <Route exact path="/" element={<LandingPage />} />
-        <Route exact path="/nexa" element={<LandingPage />} />
-        <Route path="/project" element={<ProjectPage />} />
-        <Route exact path="/project/:id" element={<ProjectDetailPage />} />
-        <Route exact path="/discuss-project" element={<DiscussProjectPage />} />
-        <Route path="**" element={<NotFoundPage />} />
-      </Routes>
+      <div className="min-h-screen bg-white text-black dark:bg-black dark:text-white transition-colors">
+        <ScrollToTop />
+        <Routes>
+          <Route exact path="/" element={<LandingPage />} />
+          <Route exact path="/nexa" element={<LandingPage />} />
+          <Route path="/project" element={<ProjectPage />} />
+          <Route exact path="/project/:id" element={<ProjectDetailPage />} />
+          <Route exact path="/discuss-project" element={<DiscussProjectPage />} />
+          <Route path="**" element={<NotFoundPage />} />
+        </Routes>
+      </div>
     </>
   );
 }

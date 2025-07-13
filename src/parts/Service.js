@@ -9,13 +9,16 @@ import { Fade } from 'react-awesome-reveal';
 
 export default function Service({ data }) {
   return (
-    <div className="bg-gray-50">
+    <div className="bg-gray-50 dark:bg-black transition-colors duration-300">
+
+      <div><br /></div>
+      
       <div className="container mx-auto pt-20 pb-28">
         <Fade direction="right" triggerOnce>
-          <h1 className="text-5xl text-theme-blue text-center font-bold">Our Service</h1>
+          <h1 className="text-5xl text-theme-blue dark:text-white text-center font-bold">Our Service</h1>
         </Fade>
         <Fade direction="left" triggerOnce>
-          <p className="font-light text-lg text-gray-400 text-center mb-12">
+          <p className="font-light text-lg text-gray-400 dark:text-gray-300 text-center mb-12">
             We are ready to scale up your business with our great service.
           </p>
         </Fade>
@@ -26,9 +29,9 @@ export default function Service({ data }) {
               // eslint-disable-next-line react/no-array-index-key
               <Fade direction={item.animation} delay={500 * index} key={index} triggerOnce>
                 <div>
-                  <div className="bg-white group rounded-2xl shadow-2xl border border-light-theme-purple transform transition duration-500 hover:scale-105">
+                  <div className="bg-white dark:bg-gray-900 group rounded-2xl shadow-2xl border border-light-theme-purple dark:border-gray-700 transform transition duration-500 hover:scale-105">
                     <img src={item.imageUrl} alt="Service" className="w-full rounded-t-2xl" />
-                    <h2 className="text-theme-blue text-center text-xl py-7 rounded-b-2xl">{item.title}</h2>
+                    <h2 className="text-theme-blue dark:text-white text-center text-xl py-7 rounded-b-2xl">{item.title}</h2>
                   </div>
                 </div>
               </Fade>

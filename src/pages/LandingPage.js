@@ -7,12 +7,12 @@ import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
 import {
-  Services, Portfolios, Advantages, Partners, TeamMembers,
+  Services, Advantages, Partners, TeamMembers,
 } from 'json/landingPageData';
 import Header from 'parts/Header';
 import Hero from 'parts/Hero';
 import Service from 'parts/Service';
-import Portfolio from 'parts/Portfolio';
+// import Portfolio from 'parts/Portfolio';
 import Advantage from 'parts/Advantage';
 import BrandPartners from 'parts/Partner';
 import TeamSection  from 'parts/TeamSection';
@@ -40,7 +40,7 @@ export default function LandingPage() {
     
       <Header />
 
-        <section id="hero">
+        <section id="hero" className="scroll-mt-[64px]">
           <Hero />
         </section>
 
@@ -48,27 +48,31 @@ export default function LandingPage() {
           <Service data={Services} />
         </section>
 
+        <section id="advantage">
+          <Advantage data={Advantages} />
+        </section>
+
         <section id="partner">
           <BrandPartners data={Partners} />
-        </section>
-        
+        </section>        
+
+        {/* 
+
         <section id="portfolio">
           <Portfolio data={Portfolios} />
         </section>
 
+        */}
+
         <section id="team">
           <TeamSection data={TeamMembers} />
-        </section>
-
-        <section id="advantage">
-          <Advantage data={Advantages} />
         </section>
 
         {/* <section id="testimonials">
           <Testimonial data={Testimonials} />
         </section> */}
 
-        <section id="contact">
+        <section id="discuss">
           <Discuss />
         </section>
 
