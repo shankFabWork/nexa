@@ -2,7 +2,7 @@
   "name": "tailwind-racxstudio",
   "version": "0.2.0",
   "private": true,
-  "homepage": "https://shankFabWork.github.io/nexa",
+  "homepage": "https://www.nexaquark-consulting.uk",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@emotion/react": "^11.13.0",
